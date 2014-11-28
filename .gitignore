@@ -1,109 +1,160 @@
-## Core latex/pdflatex auxiliary files:
-*.aux
-*.lof
-*.log
-*.lot
-*.fls
-*.out
-*.toc
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="bootstrp1.aspx.vb" Inherits="bootstrp1" %>
 
-## Intermediate documents:
-*.dvi
-*-converted-to.*
-# these rules might exclude image files for figures etc.
-# *.ps
-# *.eps
-# *.pdf
+<!DOCTYPE html>
 
-## Bibliography auxiliary files (bibtex/biblatex/biber):
-*.bbl
-*.bcf
-*.blg
-*-blx.aux
-*-blx.bib
-*.brf
-*.run.xml
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link rel="stylesheet" type="text/css" href="style/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css"/>
 
-## Build tool auxiliary files:
-*.fdb_latexmk
-*.synctex.gz
-*.synctex.gz(busy)
-*.pdfsync
 
-## Auxiliary and intermediate files from other packages:
+    
+    
+   
+</head>
+<body>
+    <div class="row" style ='background-color: #C0C0C0;'>
+    <div class="navbar-fixed-top container">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <a class="brand" href="#">Title</a>
+      <ul class="nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+   <!-- header section-->
+    <div class="page-header">
+         <!-- header image -->
+        <img src="boot2.jpg" style="float:right;margin-top:10px" class="img-circle" />
+    </div>
+        <h1>Header Section <small>you can write hander</small></h1>
+        <div>
+           
+    </div>
+    
+    <!-- top button -->
+    <button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Home
+</button>
+    <button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Contact us
+</button>
+    <button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Help
+</button>
+    <button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> status
+</button>
+  
+   <!-- image-->
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+        <img src="boot3.jpg" style="float:right;margin-right:40px" class="img-rounded" />
+        <img src="boot2.jpg" style="float:right;margin-right:20px" class="img-circle" />
+        <img src="boot1.jpg" style="float:right;margin-right:40px" class="img-rounded" />
+        <img src="boot4.jpg" style="float:right;margin-right:80px" class="img-circle" />
+        <img src="boot2.jpg" style="float:right;margin-right:20px;top:50px" class="img-circle" />
+        <img src="boot2.jpg" style="float:right;margin-right:20px;top:100px" class="img-circle" />
+    </div>
+     
+    
+  
+      <!-- Design Form -->
+        <div class="row" style ='background-color: #C0C0C0;'>
+     <div class="form-horizontal"
+  <div class="form-group">
+    <label for="exampleInputName1">Name</label>
+    <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div> 
+         <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="text" class="form-control" id="Email1" placeholder="Email">
+  </div>
+         <!-- form an image -->
+         <!--center image -->
+    <!-- image
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+        <img src="boot3.jpg" style="float:right;margin-right:40px" class="img-rounded" />
+        <img src="boot2.jpg" style="float:right;margin-right:20px" class="img-circle" />
+        <img src="boot1.jpg" style="float:right;margin-right:40px" class="img-rounded" />
+        <img src="boot4.jpg" style="float:right;margin-right:80px" class="img-circle" />
+        <img src="boot2.jpg" style="float:right;margin-right:20px;top:50px" class="img-circle" />
+        <img src="boot2.jpg" style="float:right;margin-right:20px;top:100px" class="img-circle" />
+    </div>
 
-# algorithms
-*.alg
-*.loa
 
-# amsthm
-*.thm
 
-# beamer
-*.nav
-*.snm
-*.vrb
+            -->
+         <div class="form-group">
+  <label for="comment">Comment:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+</div>
 
-#(e)ledmac/(e)ledpar
-*.end
-*.[1-9]
-*.[1-9][0-9]
-*.[1-9][0-9][0-9]
-*.[1-9]R
-*.[1-9][0-9]R
-*.[1-9][0-9][0-9]R
-*.eledsec[1-9]
-*.eledsec[1-9]R
-*.eledsec[1-9][0-9]
-*.eledsec[1-9][0-9]R
-*.eledsec[1-9][0-9][0-9]
-*.eledsec[1-9][0-9][0-9]R
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+   
+    <div class="address">
+        <strong> Address-: Kormangala</strong><br />
+        795 Folsom Ave, Suite 600<br>
+        Bangalore:- 560068
+        <div class="title">Phone: 85201254822222</div>
+    </div>
 
-# glossaries
-*.acn
-*.acr
-*.glg
-*.glo
-*.gls
+   <!-- table-->
+    <table class="table table-bordered">
+   <caption>Bordered Table Layout</caption>
+   <thead>
+      <tr>
+         <th>Name</th>
+         <th>City</th>
+         <th>Pincode</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Tanmay</td>
+         <td>Bangalore</td>
+         <td>560001</td>
+      </tr>
+      <tr>
+         <td>Sachin</td>
+         <td>Mumbai</td>
+         <td>400003</td>
+      </tr>
+      <tr>
+         <td>Uma</td>
+         <td>Pune</td>
+         <td>411027</td>
+      </tr>
+   </tbody>
+</table>
+   
 
-# hyperref
-*.brf
+    <!-- footer -->
+   <div class="modal-footer">
+       <ol class="breadcrumb">
+           <h6>Created By Sachin Sahu</h6>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
+   </div>
 
-# listings
-*.lol
-
-# makeidx
-*.idx
-*.ilg
-*.ind
-*.ist
-
-# minitoc
-*.maf
-*.mtc
-*.mtc0
-
-# minted
-*.pyg
-
-# morewrites
-*.mw
-
-# nomencl
-*.nlo
-
-# sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
-
-# sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
-
-# todonotes
-*.tdo
-
-# xindy
-*.xdy
+   
+    
+</body>
+</html>
